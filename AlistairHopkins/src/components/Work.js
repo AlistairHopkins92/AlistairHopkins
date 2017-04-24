@@ -12,7 +12,11 @@ class Work extends React.Component {
                 <Sidebar location={this.props.location} page="Work"/>
                 <Header />
                 <div className="work">
-                    <h1>This is the Work</h1>
+                    <h4>This is the Work</h4>
+                    <div className="work-pill">Trace</div>
+                    <div className="work-pill">DGA</div>
+                    <div className="work-pill">WDI</div>
+                    <div className="work-pill">test</div>
                 </div>
             </div>
         )

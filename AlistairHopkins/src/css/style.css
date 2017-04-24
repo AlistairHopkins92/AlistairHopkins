@@ -191,6 +191,18 @@ h3 {
   color: white;
 }
 
+.work div.work-pill {
+  color: white;
+  text-align: center;
+  width:50%;
+  height: 360px;
+  border: black solid 1px;
+  margin-top: 20px;
+  margin-left: 25%;
+  float: left;
+  background: rgba(173, 201, 247, 0.5)
+}
+
 .stack {
   margin-top: 5%;
   color: white;
