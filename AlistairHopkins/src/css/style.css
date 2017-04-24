@@ -187,21 +187,41 @@ h3 {
 }
 
 .work {
-  margin-top: 10%;
+  margin-top: 5%;
   color: white;
+}
+.trace{
+  background: rgba(133, 179, 255, 0.6);;
+  width:88%;
+  margin-left: 8%;
+  border-radius: 20px;
 }
 
-.work div.work-pill {
+.workcontainer div{
   color: white;
   text-align: center;
-  width:50%;
-  height: 360px;
-  border: black solid 1px;
+  width:40%;
+  min-width: 200px;
+  padding: 10px;
+  height: 300px;
   margin-top: 20px;
-  margin-left: 25%;
+  margin-left: 8%;
   float: left;
-  background: rgba(173, 201, 247, 0.5)
+  border-radius: 20px;
 }
+.work-pill{
+  background: rgba(173, 201, 247, 0.5);
+}
+.work-pill2{
+  background: rgba(124, 158, 200, 0.4);
+}
+.work-pill3{
+  background: rgba(124, 158, 200, 0.4);
+}
+.work-pill4{
+  background: rgba(173, 201, 247, 0.5);
+}
+
 
 .stack {
   margin-top: 5%;
