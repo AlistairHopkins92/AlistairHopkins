@@ -4,7 +4,7 @@ import { BrowserRouter, Match, Miss } from 'react-router';
 import Main from "./components/Main"
 import Stack from "./components/Stack"
 import Work from "./components/Work"
-
+import Sidebar from "./components/Sidebar"
 import Header from "./components/Header"
 
 import './css/style.css';
@@ -13,7 +13,6 @@ import './css/style.css';
 const Root = () => {
     return (
         <div>
-            <Header />
             <BrowserRouter>
                 <div>
                     <Match exactly pattern="/" component={Main}></Match>

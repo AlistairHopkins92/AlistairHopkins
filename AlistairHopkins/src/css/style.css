@@ -170,6 +170,23 @@ header.top {
   text-align: center;
     background: blue;
 }
+.sidebar {
+  background: blue;
+  z-index: 2;
+  width: 40px;
+  display: flex;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar h4 {
+  transform: rotate(-90deg);
+  color:white;
+}
+
 header.top h1 {
   font-size: 14.4rem;
   line-height: 0.7;

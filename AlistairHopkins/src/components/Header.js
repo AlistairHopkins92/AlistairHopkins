@@ -8,13 +8,13 @@ class Header extends React.Component {
             return (
                 <div className="top">
                     <h1 className="top">
-                        Alistair Hopkins
+                        <Link to="/">Alistair Hopkins</Link>
                     </h1>
                     <h1 className="top">
-                        Work
+                        <Link to="/work">Work</Link>
                     </h1>
                     <h1 className="top" >
-                        Stack
+                        <Link to="stack/">Stack</Link>
                     </h1>
                 </div>
             )
