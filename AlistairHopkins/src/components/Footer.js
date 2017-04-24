@@ -6,12 +6,12 @@ class Footer extends React.Component {
     render() {
             return (
                 <div className="footer">
-                    <h1 className="bottom">
-                        Github
-                    </h1>
-                    <h1 className="bottom">
-                        Linkedin
-                    </h1>
+                    <img className="icon"
+                        src={require('../css/images/github.svg')}
+                    />
+                    <img className="icon"
+                        src={require('../css/images/linkedin.svg')}
+                    />
                 </div>
             )
         }
