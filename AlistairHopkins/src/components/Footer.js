@@ -8,12 +8,12 @@ class Footer extends React.Component {
                 <div className="footer">
                     <a href="https://github.com/AlistairHopkins92">
                         <img className="icon"
-                            src={require('../css/images/github.svg')}
+                            src={require('../css/images/github-icon.png')}
                         />
                     </a>
                     <a href="https://www.linkedin.com/in/alistairhopkins92/">    
                         <img className="icon"
-                            src={require('../css/images/linkedin.svg')}
+                            src={require('../css/images/linkedInwhite.png')}
                         />
                     </a>
                 </div>
