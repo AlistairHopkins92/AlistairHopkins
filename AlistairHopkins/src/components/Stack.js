@@ -1,12 +1,12 @@
 import React from "react";
 
-class Main extends React.Component {
+class Stack extends React.Component {
 
     
     render() {
         return (
             <div>
-                <h1>This is the Main</h1>
+                <h1>This is the Stack</h1>
             </div>
         )
     }
@@ -14,4 +14,4 @@ class Main extends React.Component {
 
 
 
-export default Main;
+export default Stack;
