@@ -8,7 +8,7 @@ class Stack extends React.Component {
     render() {
         return (
             <div>
-                <Sidebar />
+                <Sidebar location={this.props.location} page="Stack"/>
                 <Header />
                 <h1>This is the Stack</h1>
             </div>

@@ -4,9 +4,10 @@ class Sidebar extends React.Component {
 
     
     render() {
+        const tag = this.props.page
         return (
             <div className="sidebar">
-                <h4>Sidebar</h4>
+                <h4>{tag}</h4>
             </div>
         )
     }

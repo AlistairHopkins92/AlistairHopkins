@@ -166,9 +166,20 @@ h2 {
 h3 {
   font-size: 3rem;
 }
-header.top {
+.header {
+  margin: 0 auto;
   text-align: center;
-    background: blue;
+  background: black;
+}
+.header h1.top {
+  text-align: center;
+  display: inline-block;
+  padding: 0 2% 0 2%;
+}
+
+.header h1.top a {
+  text-decoration: none;
+  color: white;
 }
 .sidebar {
   background: blue;
