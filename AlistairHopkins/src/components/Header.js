@@ -7,15 +7,15 @@ class Header extends React.Component {
     render() {
             return (
                 <div className="header">
-                    <h1 className="top">
+                    <h4 className="top">
                         <Link to="/">Alistair Hopkins</Link>
-                    </h1>
-                    <h1 className="top">
+                    </h4>
+                    <h4 className="top">
                         <Link to="/work">Work</Link>
-                    </h1>
-                    <h1 className="top" >
+                    </h4>
+                    <h4 className="top" >
                         <Link to="stack/">Stack</Link>
-                    </h1>
+                    </h4>
                 </div>
             )
         }

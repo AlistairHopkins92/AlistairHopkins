@@ -11,7 +11,9 @@ class Main extends React.Component {
             <div>
                 <Sidebar location={this.props.location} page="Main"/>
                 <Header />
-                <h1>This is the Main</h1>
+                <div className="main">
+                    <h1>This is the Main</h1>
+                </div>
                 <Footer />
             </div>
         )

@@ -10,7 +10,25 @@ class Stack extends React.Component {
             <div>
                 <Sidebar location={this.props.location} page="Stack"/>
                 <Header />
-                <h1>This is the Stack</h1>
+                <div className="stack">
+                    <div className="stack-column">
+                        <h4>Past</h4>
+                        <h4>Angular</h4>
+                        <h4>Angular</h4>
+                        <h4>Angular</h4>
+                        <h4>Angular</h4>
+                        <h4>Angular</h4>
+                        <h4>Angular</h4>
+                        <h4>Angular</h4>
+                    </div>
+                    <div className="stack-column">
+                        <h4>Present</h4>
+
+                    </div>
+                    <div className="stack-column">
+                        <h4>Future</h4>
+                    </div>
+                </div>
             </div>
         )
     }

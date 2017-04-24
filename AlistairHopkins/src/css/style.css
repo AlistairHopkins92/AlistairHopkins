@@ -156,6 +156,7 @@ h4,
 h5,
 h6 {
   font-weight: normal;
+  text-align: center;
   font-family: 'haymakerregular', sans-serif;
 }
 h2 {
@@ -170,18 +171,36 @@ h3 {
   margin: 0 auto;
   text-align: center;
 }
-.header h1.top {
+.header h4.top {
   text-align: center;
   display: inline-block;
   padding: 0 2% 0 2%;
 }
 
-.header h1.top a {
+.header h4.top a {
   text-decoration: none;
   color: white;
 }
 .main {
-  height: 100%;
+  margin-top: 10%;
+  color: white;
+}
+
+.work {
+  margin-top: 10%;
+  color: white;
+}
+
+.stack {
+  margin-top: 5%;
+  color: white;
+}
+
+.stack-column {
+  width: 33%;
+  float: left;
+  text-align: center;
+  display: inline-block;
 }
 
 .footer {

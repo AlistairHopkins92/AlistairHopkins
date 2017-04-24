@@ -11,6 +11,7 @@ import './css/style.css';
 
 
 const Root = () => {
+    // console.log(document.querySelector('body'))
     document.querySelector('body').grainy({
         intensity: 1,
         size: 625,
