@@ -169,7 +169,6 @@ h3 {
 .header {
   margin: 0 auto;
   text-align: center;
-  background: black;
 }
 .header h1.top {
   text-align: center;
@@ -180,6 +179,9 @@ h3 {
 .header h1.top a {
   text-decoration: none;
   color: white;
+}
+.main {
+  height: 100%;
 }
 
 .footer {
@@ -198,7 +200,7 @@ h3 {
 }
 
 .footer img {
-  width: 10%;
+  width: 5%;
   margin: 10px;
 }
 
