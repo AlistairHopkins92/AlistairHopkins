@@ -12,7 +12,13 @@ class Main extends React.Component {
                 <Sidebar location={this.props.location} page="Main"/>
                 <Header />
                 <div className="main">
-                    <h1>About</h1>
+                    <div>
+                        <h1>Alistair Hopkins</h1>
+                        <h4>Web Developer</h4>
+                    </div>
+                    <div>
+                        <h1>Javascript ReactJs Redux ES6 Rails HTML CSS Angular NodeJs</h1>
+                    </div>
                 </div>
                 <Footer />
             </div>

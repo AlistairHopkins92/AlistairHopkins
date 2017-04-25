@@ -182,9 +182,16 @@ h3 {
   color: white;
 }
 .main {
-  margin-top: 10%;
+  width: 62%;
   color: white;
+  margin: 0 auto;
 }
+.main div {
+  padding-top: 10%; 
+}
+ .main h4 {
+   margin-top: 0px;
+ }
 
 .work {
   margin-top: 5%;

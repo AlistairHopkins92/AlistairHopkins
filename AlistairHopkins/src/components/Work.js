@@ -3,6 +3,7 @@ import Sidebar from "./Sidebar"
 import Header from "./Header"
 import Trace from "./Trace"
 import Wdi from "./wdi"
+import Footer from "./Footer"
 
 
 class Work extends React.Component {
@@ -15,6 +16,7 @@ class Work extends React.Component {
                 <Header />
                 <Trace />
                 <Wdi />
+                <h1>Closing piece</h1>
             </div>
         )
     }
