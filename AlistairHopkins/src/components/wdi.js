@@ -3,7 +3,7 @@ class Wdi extends React.Component {
     render() {
             return (
                 <div className="work">
-                    <h4>WDI Projects</h4>
+                    <h1>WDI Projects</h1>
                     <div className="workcontainer">
                         <div className="work-pill">
                             <h4>WDI 1</h4>
