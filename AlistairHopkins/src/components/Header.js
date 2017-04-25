@@ -14,7 +14,7 @@ class Header extends React.Component {
                         <Link to="/work">Work</Link>
                     </h4>
                     <h4 className="top" >
-                        <Link to="stack/">Stack</Link>
+                        <Link to="/stack">Stack</Link>
                     </h4>
                 </div>
             )

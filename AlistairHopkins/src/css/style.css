@@ -202,6 +202,12 @@ h3 {
   margin-left: 8%;
   border-radius: 20px;
 }
+.workcontainer p, h1 {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 40px;
+}
 
 .workcontainer div{
   color: white;

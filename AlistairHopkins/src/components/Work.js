@@ -12,7 +12,7 @@ class Work extends React.Component {
     render() {
         return (
             <div>
-                <Sidebar location={this.props.location} page="Work"/>
+                <Sidebar location={this.props.location} page="Work" />
                 <Header />
                 <Trace />
                 <Wdi />
