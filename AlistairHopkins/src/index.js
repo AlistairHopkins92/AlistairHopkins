@@ -4,6 +4,7 @@ import { BrowserRouter, Match, Miss } from 'react-router';
 import Main from "./components/Main"
 import Stack from "./components/Stack"
 import Work from "./components/Work"
+import Contact from "./components/Contact"
 import Sidebar from "./components/Sidebar"
 import Header from "./components/Header"
 const grainy = require('grainy');
@@ -11,7 +12,6 @@ import './css/style.css';
 
 
 const Root = () => {
-    // console.log(document.querySelector('body'))
     document.querySelector('body').grainy({
         intensity: 1,
         size: 625,
@@ -28,6 +28,7 @@ const Root = () => {
                     <Match exactly pattern="/" component={Main}></Match>
                     <Match exactly pattern="/work" component={Work}></Match>
                     <Match exactly pattern="/stack" component={Stack}></Match>
+                    <Match exactly pattern="/contact" component={Contact}></Match>
                 </div>
             </BrowserRouter>
         </div>

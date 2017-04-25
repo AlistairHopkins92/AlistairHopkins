@@ -16,6 +16,9 @@ class Header extends React.Component {
                     <h4 className="top" >
                         <Link to="/stack">Stack</Link>
                     </h4>
+                    <h4 className="top" >
+                        <Link to="/contact">Contact</Link>
+                    </h4>
                 </div>
             )
         }
