@@ -8,16 +8,30 @@ class Wdi extends React.Component {
                         <p>General Assembly was a three month immersive coding bootcamp that covers a range of programming languages and frameworks, concerning both the client side and the server side. A large part of the course focused on working as part of a team, either pair programming or working in larger groups for certain projects.</p>
                         <div className="pill-container">    
                             <div className="work-pill">
-                                <h4>WDI 1</h4>
+                                <h4>The Box Game</h4>
+                                <p>Stack:
+                                    HTML
+                                    JavaScript
+                                    CSS
+                                </p>
                             </div>
                             <div className="work-pill2">
-                                <h4>WDI 2</h4>
+                                <h4>Come Ride With Me</h4>
+                                <p>Stack:
+                                     Ruby on Rails, CSS, foundation & OAuth Facebook authentication 
+                                </p>
                             </div>
                             <div className="work-pill3">
-                                <h4>WDI 3</h4>
+                                <h4>7 Days of Sun</h4>
+                                <p>Stack:
+                                    
+                                </p>
                             </div>
                             <div className="work-pill4">
-                                <h4>WDI 4</h4>
+                                <h4>Down To Go</h4>
+                                <p>Stack:
+                                    
+                                </p>
                             </div>
                         </div>
                     </div>

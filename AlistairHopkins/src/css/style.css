@@ -202,10 +202,12 @@ h3 {
 .work {
   margin-top: 5%;
   color: white;
+  min-width: 400px;
 }
 .trace{
-  width:88%;
-  margin-left: 8%;
+  width:80%;
+  min-width: 400px;
+  margin: 0 auto;
   border-radius: 20px;
 }
 .workcontainer p, h1 {
@@ -225,16 +227,21 @@ h3 {
   border-radius: 20px;
 }
 .workcontainer div.pill-container div{
-  height: 300px;
-  width: 300px;
+  height: 400px;
+  width: 400px;
   border-radius: 20px;
   display: inline-block;
-  margin: 10%
-
+  margin: 2.5%
 }
+
+.workcontainer div.pill-container div p {
+  text-align: left;
+}
+
 
 .work-pill{
   background: rgba(173, 201, 247, 0.5);
+  vertical-align: top;
 }
 .work-pill2{
   background: rgba(124, 158, 200, 0.4);
