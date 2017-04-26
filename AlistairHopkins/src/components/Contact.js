@@ -12,6 +12,12 @@ class Stack extends React.Component {
                 <Header />
                 <div className="contact">
                     <h1>Contact</h1>
+                     <div>
+                        <h4>Alistair Hopkins</h4>
+                        <h4>alistairhopkins92@gmail.com</h4>
+                        <h4>www.github.com/AlistairHopkins92</h4>
+                        <h4>www.linkedin.com/in/alistairhopkins92/</h4>
+                    </div>
                 </div>
             </div>
         )

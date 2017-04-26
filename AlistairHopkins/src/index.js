@@ -5,8 +5,7 @@ import Main from "./components/Main"
 import Stack from "./components/Stack"
 import Work from "./components/Work"
 import Contact from "./components/Contact"
-import Sidebar from "./components/Sidebar"
-import Header from "./components/Header"
+import NotFound from "./components/NotFound"
 const grainy = require('grainy');
 import './css/style.css';
 
@@ -29,6 +28,7 @@ const Root = () => {
                     <Match exactly pattern="/work" component={Work}></Match>
                     <Match exactly pattern="/stack" component={Stack}></Match>
                     <Match exactly pattern="/contact" component={Contact}></Match>
+                    <Miss component={NotFound}></Miss>
                 </div>
             </BrowserRouter>
         </div>

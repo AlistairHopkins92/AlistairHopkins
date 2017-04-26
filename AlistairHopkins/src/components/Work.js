@@ -16,7 +16,6 @@ class Work extends React.Component {
                 <Header />
                 <Trace />
                 <Wdi />
-                <h1>Closing piece</h1>
             </div>
         )
     }

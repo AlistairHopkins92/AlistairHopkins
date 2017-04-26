@@ -12,22 +12,20 @@ class Stack extends React.Component {
                 <Header />
                 <div className="stack">
                     <div className="stack-column">
-                        <h4>Past</h4>
+                        <h1>Past</h1>
                         <p> 
                             Angular Ionic/Cordova
-                            AWS Lambda
                             AWS API Gateway
                             Jira
                             Twilio Stripe
                             Heroku Now.sh
-                            Docker Ubuntu
                             Github
                             Gulp Bower
                             Firebase
                         </p>
                     </div>
                     <div className="stack-column">
-                        <h4>Present</h4>
+                        <h1>Present</h1>
                         <p> 
                             React
                             React Redux ES6
@@ -44,7 +42,7 @@ class Stack extends React.Component {
                         </p>
                     </div>
                     <div className="stack-column">
-                        <h4>Future</h4>
+                        <h1>Future</h1>
                         <p> 
                             React Native
                             D3 Centos Nginx

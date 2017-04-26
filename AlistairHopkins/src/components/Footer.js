@@ -9,11 +9,13 @@ class Footer extends React.Component {
                     <a href="https://github.com/AlistairHopkins92">
                         <img className="icon"
                             src={require('../css/images/github-icon.png')}
+                            role="presentation"
                         />
                     </a>
                     <a href="https://www.linkedin.com/in/alistairhopkins92/">    
                         <img className="icon"
                             src={require('../css/images/linkedInwhite.png')}
+                            role="presentation"
                         />
                     </a>
                 </div>
