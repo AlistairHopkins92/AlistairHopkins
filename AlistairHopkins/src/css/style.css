@@ -222,15 +222,15 @@ h3 {
   min-width: 200px;
   padding: 10px;
   margin: 0 auto;
-  float: left;
   border-radius: 20px;
 }
 .workcontainer div.pill-container div{
   height: 300px;
   width: 300px;
-  float: left;
   border-radius: 20px;
-  position: relative;
+  display: inline-block;
+  margin: 10%
+
 }
 
 .work-pill{
@@ -254,7 +254,7 @@ h3 {
 
 .stack-column {
   width: 33%;
-  float: left;
+  float:left;
   text-align: center;
   display: inline-block;
 }
