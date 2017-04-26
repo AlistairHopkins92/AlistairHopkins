@@ -9,6 +9,7 @@ class Wdi extends React.Component {
                         <div className="pill-container">    
                             <div className="work-pill">
                                 <h4>The Box Game</h4>
+                                <p>Description:</p>
                                 <p>Stack:
                                     HTML
                                     JavaScript
@@ -17,20 +18,25 @@ class Wdi extends React.Component {
                             </div>
                             <div className="work-pill2">
                                 <h4>Come Ride With Me</h4>
+                                <p>Description:</p>
                                 <p>Stack:
                                      Ruby on Rails, CSS, foundation & OAuth Facebook authentication 
                                 </p>
                             </div>
                             <div className="work-pill3">
                                 <h4>7 Days of Sun</h4>
+                                <p>Description:</p>
                                 <p>Stack:
+                                    Google Maps API  forecast.io API
                                     
                                 </p>
                             </div>
                             <div className="work-pill4">
                                 <h4>Down To Go</h4>
+                                <p>Description:</p>
                                 <p>Stack:
-                                    
+                                    AngularJS
+                                    Google Maps Api, Socket.io.
                                 </p>
                             </div>
                         </div>
