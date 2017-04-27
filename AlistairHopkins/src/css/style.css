@@ -199,10 +199,12 @@ h3 {
    margin-top: 0px;
  }
 .portrait {
+  display: block;
+  margin: auto;
   width: 250px;
   height: 250px;
   border-radius: 250px;
-  border: solid 5px white;
+  border: solid 10px white;
 }
 
 .work {
