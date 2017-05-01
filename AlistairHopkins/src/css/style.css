@@ -167,6 +167,9 @@ h2 {
 h3 {
   font-size: 3rem;
 }
+p {
+  line-height: 30px;
+}
 .header {
   margin: 0 auto;
   text-align: center;
