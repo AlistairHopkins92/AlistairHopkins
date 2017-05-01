@@ -212,6 +212,9 @@ h3 {
   color: white;
   min-width: 400px;
 }
+.workImages {
+  width: 100%;
+}
 .trace{
   width:80%;
   min-width: 400px;
