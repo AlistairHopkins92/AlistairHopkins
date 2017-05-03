@@ -8,13 +8,13 @@ class SubHeader extends React.Component {
             return (
                 <div className="header">
                     <h4 className="top">
-                        <Link to={`work`}>
+                        <Link to="/work">
                             Work
                         </Link>
-                    </h4>
+                    </h4>-
                     <h4 className="top" >
                         <Link to="/work/trace">Trace</Link>
-                    </h4>
+                    </h4>-
                     <h4 className="top" >
                         <Link to="/work/ga">General Assembly</Link>
                     </h4>

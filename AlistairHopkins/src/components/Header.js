@@ -9,13 +9,13 @@ class Header extends React.Component {
                 <div className="header">
                     <h4 className="top">
                         <Link to="/">Alistair Hopkins</Link>
-                    </h4>
+                    </h4>-
                     <h4 className="top">
                         <Link to="/work">Work</Link>
-                    </h4>
+                    </h4>-
                     <h4 className="top" >
                         <Link to="/stack">Stack</Link>
-                    </h4>
+                    </h4>-
                     <h4 className="top" >
                         <Link to="/contact">Contact</Link>
                     </h4>

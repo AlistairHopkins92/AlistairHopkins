@@ -15,7 +15,6 @@ class Sidebar extends React.Component {
             monochrome: true,
         });
     }
-// #71b8bd
     render() { 
         const tag = this.props.page
         return (
