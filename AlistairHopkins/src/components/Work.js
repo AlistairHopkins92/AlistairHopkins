@@ -19,8 +19,10 @@ class Work extends React.Component {
                 
                     <Sidebar location={this.props.location} page="Work" />
                     <Header />
+
                  <BrowserRouter>
-                <div>
+                <div className="work">
+                    <h1>Work</h1>
                     <SubHeader />
                     <Match exactly pattern="work" component={General}></Match>
                     <Match exactly pattern="/work/trace" component={Trace}></Match>

@@ -213,7 +213,7 @@ p {
 }
 
 .work {
-  margin-top: 5%;
+  margin-top: 3.5%;
   color: white;
   min-width: 400px;
 }
@@ -269,11 +269,12 @@ p {
 }
 
 .stack {
-  margin-top: 5%;
+  margin-top: 3.5%;
   color: white;
 }
 
 .stack-column {
+  margin-top: 2.5%;
   width: 33%;
   float:left;
   text-align: center;

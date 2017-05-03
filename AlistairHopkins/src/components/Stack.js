@@ -11,6 +11,7 @@ class Stack extends React.Component {
                 <Sidebar location={this.props.location} page="Stack"/>
                 <Header />
                 <div className="stack">
+                    <h1>Stack</h1>
                     <div className="stack-column">
                         <h1>Past</h1>
                         <p> 

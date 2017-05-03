@@ -9,7 +9,7 @@ class SubHeader extends React.Component {
                 <div className="header">
                     <h4 className="top">
                         <Link to="/work">
-                            Work
+                           General
                         </Link>
                     </h4>-
                     <h4 className="top" >
