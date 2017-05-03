@@ -213,7 +213,6 @@ p {
 }
 
 .work {
-  margin-top: 3.5%;
   color: white;
   min-width: 400px;
 }
@@ -260,16 +259,52 @@ p {
 }
 .work-pill2{
   background: rgba(124, 158, 200, 0.4);
+  vertical-align: top;
 }
 .work-pill3{
   background: rgba(47, 93, 139, 0.69);
+  vertical-align: top;
+
 }
 .work-pill4{
   background: rgba(173, 201, 247, 0.5);
+  vertical-align: top;
+}
+
+
+
+.wdiimage {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 
 .stack {
-  margin-top: 3.5%;
   color: white;
 }
 
