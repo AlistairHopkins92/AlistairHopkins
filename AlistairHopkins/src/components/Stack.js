@@ -17,14 +17,33 @@ class Stack extends React.Component {
             return item.tense === "future"
         })
 
+
         const pastListings = pastStack.map((item) =>
-            <li>{item.name}</li>
+            <li>
+                {item.name}
+                <img className="portrait"
+                            src={item.image}
+                            role="presentation"
+                        />
+            </li>
         );
         const currentListings = currentStack.map((item) =>
-            <li>{item.name}</li>
+            <li>
+                {item.name}
+                <img className="portrait"
+                            src={item.image}
+                            role="presentation"
+                        />
+            </li>
         );
         const futureListings = futureStack.map((item) =>
-            <li>{item.name}</li>
+            <li>
+                {item.name}
+                <img className="portrait"
+                            src={item.image}
+                            role="presentation"
+                        />
+            </li>
         );
 
         return (
