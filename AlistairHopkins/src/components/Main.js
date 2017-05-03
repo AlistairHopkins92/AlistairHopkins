@@ -21,7 +21,7 @@ class Main extends React.Component {
                         />
                     </div>
                     <div>
-                        <h4>Javascript ReactJs Redux ES6 Rails HTML CSS Angular NodeJs</h4>
+                        <h4>Javascript - ReactJs - Redux - ES6 - Rails - HTML - CSS - Angular - NodeJs</h4>
                     </div>
                 </div>
                 <Footer />

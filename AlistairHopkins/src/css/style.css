@@ -174,11 +174,13 @@ p {
   margin: 0 auto;
   text-align: center;
   line-height: 2px;
+  color: white;
 }
 .header h4.top {
   text-align: center;
   display: inline-block;
   padding: 0 1% 0 1%;
+  color: white;
 }
 
 .header h4.top a {
@@ -196,7 +198,7 @@ p {
   margin: 20% auto;
 }
 .main div {
-  padding-top: 2.5%; 
+  padding-top: 3.5%; 
 }
  .main h4 {
    margin-top: 0px;
@@ -204,10 +206,10 @@ p {
 .portrait {
   display: block;
   margin: auto;
-  width: 250px;
-  height: 250px;
-  border-radius: 250px;
-  border: solid 10px white;
+  width: 275px;
+  height: 275px;
+  border-radius: 275px;
+  border: solid 15px rgba(255,255,255,0.6);
 }
 
 .work {
@@ -228,7 +230,6 @@ p {
   width: 80%;
   margin: 0 auto;
   text-align: center;
-  padding-bottom: 40px;
 }
 
 .workcontainer div.pill-container{
