@@ -21,7 +21,7 @@ class Stack extends React.Component {
         const pastListings = pastStack.map((item) =>
             <li>
                 {item.name}
-                <img className="portrait"
+                <img className="stack-image"
                             src={item.image}
                             role="presentation"
                         />
@@ -30,7 +30,7 @@ class Stack extends React.Component {
         const currentListings = currentStack.map((item) =>
             <li>
                 {item.name}
-                <img className="portrait"
+                <img className="stack-image"
                             src={item.image}
                             role="presentation"
                         />
@@ -39,7 +39,7 @@ class Stack extends React.Component {
         const futureListings = futureStack.map((item) =>
             <li>
                 {item.name}
-                <img className="portrait"
+                <img className="stack-image"
                             src={item.image}
                             role="presentation"
                         />

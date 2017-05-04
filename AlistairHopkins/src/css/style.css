@@ -271,8 +271,6 @@ p {
   vertical-align: top;
 }
 
-
-
 .wdiimage {
   display: block;
   width: 100%;
@@ -316,9 +314,23 @@ p {
   display: inline-block;
 }
 
+.stack-column li {
+  width:50%;
+  float: left;
+}
+
 .stack-column p {
   width: 60%;
   margin: 0 auto
+}
+
+.stack-image {
+  display: block;
+  margin-left: 40px;
+  width: 75%;
+  height: 75%;
+  border-radius: 100%;
+  /*border: solid 15px rgba(255,255,255,0.6);*/
 }
 
 .footer {
