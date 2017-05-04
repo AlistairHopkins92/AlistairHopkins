@@ -21,28 +21,29 @@ class Stack extends React.Component {
         const pastListings = pastStack.map((item) =>
             <li>
                 {item.name}
-                <img className="stack-image"
+                {/*<img className="stack-image"
                             src={item.image}
+                            
                             role="presentation"
-                        />
+                        />*/}
             </li>
         );
         const currentListings = currentStack.map((item) =>
             <li>
                 {item.name}
-                <img className="stack-image"
+                {/*<img className="stack-image"
                             src={item.image}
                             role="presentation"
-                        />
+                        />*/}
             </li>
         );
         const futureListings = futureStack.map((item) =>
             <li>
                 {item.name}
-                <img className="stack-image"
+                {/*<img className="stack-image"
                             src={item.image}
                             role="presentation"
-                        />
+                        />*/}
             </li>
         );
 

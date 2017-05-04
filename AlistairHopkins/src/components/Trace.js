@@ -25,6 +25,9 @@ class Trace extends React.Component {
                             <p>Viewing routes for individual engineers</p>
                         </div>
                         <div>
+                            <p>We initially worked autonomously as an outsourced team, in the early successes in building the proof of concept which went into production, before being brought in under the auspices of Homeserve as an embedded team, following an agile methodology via Jira.</p>
+                        </div>
+                        <div>
                             <video className="workImages" controls>
                                 <source src={require('../css/videos/tracevideo2.mp4')} type="video/mp4"/>
                             </video>

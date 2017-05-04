@@ -7,16 +7,17 @@ class SubHeader extends React.Component {
     render() {
             return (
                 <div className="header">
-                    <h4 className="top">
-                        <Link to="/work">
-                           General
-                        </Link>
-                    </h4>-
+                    
                     <h4 className="top" >
                         <Link to="/work/trace">Trace</Link>
                     </h4>-
                     <h4 className="top" >
                         <Link to="/work/ga">General Assembly</Link>
+                    </h4>-
+                    <h4 className="top">
+                        <Link to="/work">
+                           Other
+                        </Link>
                     </h4>
                 </div>
             )

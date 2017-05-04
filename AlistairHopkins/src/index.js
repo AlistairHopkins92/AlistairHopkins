@@ -25,8 +25,9 @@ const Root = () => {
             <BrowserRouter>
                 <div>
                     <Match exactly pattern="/" component={Main}></Match>
-                    <Match exactly pattern="/work" component={Work}></Match>
+                    <Match exactly pattern="/other" component={Work}></Match>
                     <Match exactly pattern="/work/trace" component={Work}></Match>
+                    <Match exactly pattern="/work/ga" component={Work}></Match>
                     <Match exactly pattern="/stack" component={Stack}></Match>
                     <Match exactly pattern="/contact" component={Contact}></Match>
                     <Miss component={NotFound}></Miss>

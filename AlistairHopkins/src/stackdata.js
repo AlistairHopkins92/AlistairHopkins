@@ -22,7 +22,7 @@ const stackdata = [
   },
 {
     name: 'Github',
-    image: 'http://i.istockimg.com/file_thumbview_approve/36248396/5/stock-photo-36248396-blackened-cajun-sea-bass.jpg',
+    image: '../css/images/websiteportrait.png',
     tense: 'past'
   },
 {

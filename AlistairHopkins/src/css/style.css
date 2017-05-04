@@ -149,6 +149,7 @@ h1 {
   text-align: center;
   font-weight: normal;
   margin: 0;
+  text-decoration: underline;
 }
 h2,
 h3,
@@ -175,6 +176,7 @@ p {
   text-align: center;
   line-height: 2px;
   color: white;
+  background: rgba(148, 201, 243, 0.5);
 }
 .header h4.top {
   text-align: center;
@@ -191,21 +193,20 @@ p {
   width: 62%;
   color: white;
   margin: 0 auto;
+  margin-top: 35px;
 }
 .unknown {
   width: 62%;
   color: white;
   margin: 20% auto;
 }
-.main div {
-  padding-top: 3.5%; 
-}
+
  .main h4 {
    margin-top: 0px;
  }
 .portrait {
   display: block;
-  margin: auto;
+  margin: 25px auto;
   width: 275px;
   height: 275px;
   border-radius: 275px;
@@ -215,6 +216,14 @@ p {
 .work {
   color: white;
   min-width: 400px;
+  margin-top: 35px;
+}
+.work-title {
+  width: 80%;
+  margin: 25px auto;
+  text-align: left;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(255,255,255,0.7);
 }
 .workImages {
   width: 100%;
@@ -304,6 +313,7 @@ p {
 
 .stack {
   color: white;
+  margin-top: 35px;
 }
 
 .stack-column {
@@ -312,6 +322,7 @@ p {
   float:left;
   text-align: center;
   display: inline-block;
+  
 }
 
 .stack-column li {
@@ -325,8 +336,7 @@ p {
 }
 
 .stack-image {
-  display: block;
-  margin-left: 40px;
+  display: inline-block;
   width: 75%;
   height: 75%;
   border-radius: 100%;

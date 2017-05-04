@@ -22,9 +22,8 @@ class Work extends React.Component {
 
                  <BrowserRouter>
                 <div className="work">
-                    <h1>Work</h1>
-                    <SubHeader />
-                    <Match exactly pattern="/work" component={General}></Match>
+                    {/*<SubHeader />*/}
+                    <Match exactly pattern="/other" component={General}></Match>
                     <Match exactly pattern="/work/trace" component={Trace}></Match>
                     <Match exactly pattern="/work/ga" component={Wdi}></Match>
                

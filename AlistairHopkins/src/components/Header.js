@@ -11,11 +11,23 @@ class Header extends React.Component {
                         <Link to="/">Alistair Hopkins</Link>
                     </h4>-
                     <h4 className="top">
-                        <Link to="/work">Work</Link>
+                        <Link to="/other">
+                           About
+                        </Link>
                     </h4>-
+                    <h4 className="top">
+                        Work:
+                    </h4>
                     <h4 className="top" >
-                        <Link to="/stack">Stack</Link>
+                        <Link to="/work/trace">Trace</Link>
+                    </h4>
+                    <h4 className="top" >
+                        <Link to="/work/ga">General Assembly</Link>
                     </h4>-
+
+                    {/*<h4 className="top" >
+                        <Link to="/stack">Stack</Link>
+                    </h4>-*/}
                     <h4 className="top" >
                         <Link to="/contact">Contact</Link>
                     </h4>
