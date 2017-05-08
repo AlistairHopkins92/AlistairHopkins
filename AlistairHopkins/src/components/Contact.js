@@ -11,16 +11,21 @@ class Stack extends React.Component {
             <div>
                 <Sidebar location={this.props.location} page="Contact"/>
                 <Header />
-                <div className="stack">
-                    <h1>Contact</h1>
-                     <div>
-                        <h4>Alistair Hopkins</h4>
-                        <h4>alistairhopkins92@gmail.com</h4>
-                        <h4>www.github.com/AlistairHopkins92</h4>
-                        <h4>www.linkedin.com/in/alistairhopkins92/</h4>
+                <div className="work">
+                    <div className="trace">
+                    <div className="textBlock">
+                        <a href="https://github.com/AlistairHopkins92">     
+                            <h1>Email</h1>
+                        </a>
+                        <a href="https://github.com/AlistairHopkins92"> 
+                            <h1>LinkedIn</h1>
+                        </a>
+                         <a href="https://github.com/AlistairHopkins92">
+                            <h1>GitHub</h1>
+                        </a>
+                    </div>
                     </div>
                 </div>
-                <Footer />
             </div>
         )
     }

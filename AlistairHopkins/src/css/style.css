@@ -6,10 +6,15 @@ html {
 }
 a:focus {
   outline: thin dotted;
+  text-decoration: none
 }
+a,
+a:visited,
 a:active,
 a:hover {
+  color: white;
   outline: 0;
+  text-decoration: none
 }
 h1 {
   font-size: 2em;
@@ -123,6 +128,22 @@ input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
+.textBlock {
+  padding: 5%;
+  padding-bottom: 2%;
+}
+
+.textBlock h1{
+  font-size: 50px;
+  margin: 5%;
+  width: 90% !important;
+  text-decoration: none;
+}
+
+.textBlock p{
+  line-height: 30px;
+}
+
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -266,19 +287,23 @@ p {
 .work-pill{
   background: rgba(173, 211, 269, 0.7);
   vertical-align: top;
+  border: solid 5px white;
 }
 .work-pill2{
   background: rgba(124, 158, 200, 0.4);
   vertical-align: top;
+  border: solid 5px white;
 }
 .work-pill3{
   background: rgba(47, 93, 139, 0.69);
   vertical-align: top;
+  border: solid 5px white;
 
 }
 .work-pill4{
   background: rgba(173, 201, 247, 0.5);
   vertical-align: top;
+  border: solid 5px white;
 }
 
 .github-small {
