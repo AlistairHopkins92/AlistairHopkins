@@ -1,6 +1,7 @@
 import React from "react";
 import Sidebar from "./Sidebar"
 import Header from "./Header"
+import Footer from "./Footer"
 
 class Stack extends React.Component {
 
@@ -19,6 +20,7 @@ class Stack extends React.Component {
                         <h4>www.linkedin.com/in/alistairhopkins92/</h4>
                     </div>
                 </div>
+                <Footer />
             </div>
         )
     }

@@ -9,8 +9,11 @@ class Wdi extends React.Component {
                         <div className="pill-container">    
                            
                             <div className="work-pill">
-                                 <h4 className="work-title">The Box Game</h4>
-                                 <div>
+                                <h4 className="work-title">
+                                    The Box Game
+                                    <img src={require('../css/images/github-icon.png')} className="github-small" />
+                                </h4>
+                                <div className="wdi-top">
                                     <p>Puzzle Game built as my first WDI project</p>
                                  </div>
                                  <div className="stack-col">
@@ -26,9 +29,13 @@ class Wdi extends React.Component {
                                 </div>
                             </div>
                             <div className="work-pill2">
-                                <h4 className="work-title">Come Ride With Me</h4>
-                              
-                                <p>A lift sharing service with Facebook OAuth authentication</p>
+                                <h4 className="work-title">
+                                    Come Ride With Me
+                                    <img src={require('../css/images/github-icon.png')} className="github-small" />
+                                </h4>
+                                <div className="wdi-top">
+                                    <p>A lift sharing service with Facebook OAuth authentication</p>
+                                </div>
                                 <div className="stack-col">
                                     <h4>Stack</h4>
                                     <p>
@@ -43,9 +50,14 @@ class Wdi extends React.Component {
                             </div>
                             
                             <div className="work-pill3">
-                                <h4 className="work-title">7 Days of Sun</h4>
-                                <p>A website for finding 7 days of sun using Google Maps and forecast.io APIs</p>
-                                 <div className="stack-col">
+                                <h4 className="work-title">
+                                    7 Days of Sun 
+                                    <img src={require('../css/images/github-icon.png')} className="github-small" />
+                                </h4>
+                                <div className="wdi-top">
+                                    <p>A website for finding 7 days of sun using Google Maps and forecast.io APIs</p>
+                                </div>
+                                <div className="stack-col">
                                     <h4>Stack</h4>
                                     <p>
                                         AngularJS
@@ -58,12 +70,13 @@ class Wdi extends React.Component {
                                 </div>
                             </div>
                             <div className="work-pill4">
-                                <h4 className="work-title">Down To Go</h4>
-                                
-                                <p>Stack:
-                                    AngularJS
-                                    Google Maps Api, Socket.io.
-                                </p>
+                                <h4 className="work-title">
+                                    Down To Go
+                                    <img src={require('../css/images/github-icon.png')} className="github-small" />
+                                </h4>
+                                <div className="wdi-top">
+                                    <p>Down to go is a location based dating app built as my 4th WDI project</p>
+                                </div>
                                 <div className="stack-col">
                                     <h4>Stack</h4>
                                     <p>

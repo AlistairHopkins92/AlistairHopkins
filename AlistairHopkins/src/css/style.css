@@ -281,6 +281,13 @@ p {
   vertical-align: top;
 }
 
+.github-small {
+  width:20px;
+  height:20px;
+  float: right;
+  margin-bottom:10px;
+}
+
 .wdi-image {
   width: 50% !important;
   height: 50% !important;
@@ -291,6 +298,13 @@ p {
   height: 100%;
   border-radius: inherit;
   margin: 0 auto !important;
+}
+.wdi-top {
+  height: 70px !important;
+}
+
+.wdi-top p{
+  font-size: 16px;
 }
 
 .stack-col {
