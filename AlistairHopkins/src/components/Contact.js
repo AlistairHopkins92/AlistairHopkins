@@ -14,10 +14,12 @@ class Stack extends React.Component {
                 <div className="work">
                     <div className="trace">
                     <div className="textBlock">
-                        <a href="https://github.com/AlistairHopkins92">     
+                        <h2>I'd Love to hear from you!</h2>
+                        <h2>Feel free to get in touch:</h2>
+                        <a href="mailto:alistairhopkins92@gmail.com">     
                             <h1>Email</h1>
                         </a>
-                        <a href="https://github.com/AlistairHopkins92"> 
+                        <a href="https://linkedin.com/in/alistairhopkins92"> 
                             <h1>LinkedIn</h1>
                         </a>
                          <a href="https://github.com/AlistairHopkins92">

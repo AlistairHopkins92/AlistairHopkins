@@ -15,7 +15,7 @@ class Sidebar extends React.Component {
             monochrome: true,
         });
     }
-    render() { 
+    render() {
         const tag = this.props.page
         return (
             <div className="sidebar">

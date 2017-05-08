@@ -5,6 +5,7 @@ import Main from "./components/Main"
 import Stack from "./components/Stack"
 import Work from "./components/Work"
 import Contact from "./components/Contact"
+import General from "./components/General"
 import NotFound from "./components/NotFound"
 const grainy = require('grainy');
 import './css/style.css';
@@ -25,7 +26,7 @@ const Root = () => {
             <BrowserRouter>
                 <div>
                     <Match exactly pattern="/" component={Main}></Match>
-                    <Match exactly pattern="/other" component={Work}></Match>
+                    <Match exactly pattern="/other" component={General}></Match>
                     <Match exactly pattern="/work/trace" component={Work}></Match>
                     <Match exactly pattern="/work/ga" component={Work}></Match>
                     <Match exactly pattern="/stack" component={Stack}></Match>

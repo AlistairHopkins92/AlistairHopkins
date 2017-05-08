@@ -442,6 +442,7 @@ p {
 .sidebar h4 {
   transform: rotate(-90deg);
   color:white;
+  white-space: nowrap;
 }
 
 header.top h1 {

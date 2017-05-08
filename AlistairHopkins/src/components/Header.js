@@ -3,7 +3,6 @@ import { Link } from 'react-router';
 
 
 class Header extends React.Component {
-
     render() {
             return (
                 <div className="header">
@@ -15,16 +14,12 @@ class Header extends React.Component {
                            About
                         </Link>
                     </h4>-
-                    <h4 className="top">
-                        Work:
-                    </h4>
                     <h4 className="top" >
                         <Link to="/work/trace">Trace</Link>
-                    </h4>
+                    </h4>-
                     <h4 className="top" >
                         <Link to="/work/ga">General Assembly</Link>
                     </h4>-
-
                     {/*<h4 className="top" >
                         <Link to="/stack">Stack</Link>
                     </h4>-*/}
