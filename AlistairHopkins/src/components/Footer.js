@@ -18,7 +18,7 @@ class Footer extends React.Component {
                             role="presentation"
                         />
                     </a>
-                    <a href="https://www.linkedin.com/in/alistairhopkins92/">    
+                    <a href="mailto:alistairhopkins92@gmail.com">    
                         <img className="icon"
                             src={require('../css/images/mailicon.png')}
                             role="presentation"
