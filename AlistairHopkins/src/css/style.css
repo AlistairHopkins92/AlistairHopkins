@@ -223,7 +223,8 @@ p {
 }
 
 .about {
-  width: 65%;
+  width: 63%;
+  padding-right: 2%;
   margin-top: 5%;
 }
 
@@ -235,7 +236,6 @@ p {
   width: 35%;
   text-align: center;
   float:right;
-  margin-top: 5%;
 }
 
 .code-icons {
@@ -256,7 +256,7 @@ p {
 .devicon-ruby-plain.colored,
 .devicon-rails-plain.colored,
 .devicon-javascript-plain.colored,
-.devicon-jquery-plain-wordmark.colored,
+.devicon-jquery-plain-wordmark,
 .devicon-css3-plain-wordmark,
 .devicon-sass-original.colored,
 .devicon-bootstrap-plain-wordmark.colored,
@@ -265,8 +265,9 @@ p {
 .devicon-foundation-plain-wordmark,
 .devicon-mocha-plain.colored,
 .devicon-jasmine-plain-wordmark.colored,
-.devicon-trello-plain.colored,
-.devicon-protractor-plain.colored {
+.devicon-protractor-plain.colored,
+.devicon-gulp-plain.colored,
+.devicon-grunt-plain-wordmark.colored {
   font-size: 90px;
 }
 
@@ -310,7 +311,7 @@ p {
   border-radius: 20px;
 }
 .workcontainer p, h1 {
-  width: 80%;
+  width: 88%;
   margin: 0 auto;
   text-align: center;
 }
@@ -342,6 +343,12 @@ p {
   background: rgba(173, 211, 269, 0.7);
   vertical-align: top;
   border: solid 5px white;
+}
+.work-pill:hover,
+.work-pill2:hover,
+.work-pill3:hover,
+.work-pill4:hover {
+  opacity: 0.8;
 }
 .work-pill2{
   background: rgba(124, 158, 200, 0.4);
@@ -380,6 +387,7 @@ p {
 }
 .wdi-top {
   height: 70px !important;
+  width: 360px !important;
 }
 
 .wdi-top p{
