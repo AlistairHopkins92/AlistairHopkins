@@ -238,6 +238,37 @@ p {
   margin-top: 5%;
 }
 
+.code-icons {
+    list-style: none;
+    float: left;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.code-icons li {
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+}
+.devicon-react-original-wordmark.colored,
+.devicon-angularjs-plain.colored,
+.devicon-ruby-plain.colored,
+.devicon-rails-plain.colored,
+.devicon-javascript-plain.colored,
+.devicon-jquery-plain-wordmark.colored,
+.devicon-css3-plain-wordmark,
+.devicon-sass-original.colored,
+.devicon-bootstrap-plain-wordmark.colored,
+.devicon-nodejs-plain.colored,
+.devicon-html5-plain.colored,
+.devicon-foundation-plain-wordmark,
+.devicon-mocha-plain.colored,
+.devicon-jasmine-plain-wordmark.colored,
+.devicon-trello-plain.colored,
+.devicon-protractor-plain.colored {
+  font-size: 90px;
+}
 
 
 .headshot {

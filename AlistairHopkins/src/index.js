@@ -16,8 +16,8 @@ const Root = () => {
         intensity: 1,
         size: 625,
         color: '#ffffff',
-        backgroundColor: '#2f5d8b',
-        opacity: 0.24,
+        backgroundColor: '#3b6691',
+        opacity: 0.21,
         monochrome: true
     })
 
