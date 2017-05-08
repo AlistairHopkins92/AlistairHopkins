@@ -12,7 +12,9 @@ class Wdi extends React.Component {
                             <div className="work-pill">
                                 <h4 className="work-title">
                                     The Box Game
-                                    <img src={require('../css/images/github-icon.png')} className="github-small" />
+                                    <a href="https://github.com/AlistairHopkins92/wdi-project-1">
+                                        <img src={require('../css/images/github-icon.png')} className="github-small" />
+                                    </a>
                                 </h4>
                                 <div className="wdi-top">
                                     <p>Puzzle Game built as my first WDI project</p>
@@ -32,7 +34,9 @@ class Wdi extends React.Component {
                             <div className="work-pill2">
                                 <h4 className="work-title">
                                     Come Ride With Me
-                                    <img src={require('../css/images/github-icon.png')} className="github-small" />
+                                    <a href="https://github.com/AlistairHopkins92/wdi-project-2">
+                                        <img src={require('../css/images/github-icon.png')} className="github-small" />
+                                    </a>
                                 </h4>
                                 <div className="wdi-top">
                                     <p>A lift sharing service with Facebook OAuth authentication</p>
@@ -53,7 +57,9 @@ class Wdi extends React.Component {
                             <div className="work-pill3">
                                 <h4 className="work-title">
                                     7 Days of Sun 
-                                    <img src={require('../css/images/github-icon.png')} className="github-small" />
+                                    <a href="https://github.com/matmenzl/wdi-project-3">
+                                        <img src={require('../css/images/github-icon.png')} className="github-small" />
+                                    </a>
                                 </h4>
                                 <div className="wdi-top">
                                     <p>A website for finding 7 days of sun using Google Maps and forecast.io APIs</p>
@@ -73,7 +79,9 @@ class Wdi extends React.Component {
                             <div className="work-pill4">
                                 <h4 className="work-title">
                                     Down To Go
-                                    <img src={require('../css/images/github-icon.png')} className="github-small" />
+                                    <a href="https://github.com/AlistairHopkins92/wdi-project-4">
+                                        <img src={require('../css/images/github-icon.png')} className="github-small" />
+                                    </a>
                                 </h4>
                                 <div className="wdi-top">
                                     <p>Down to go is a location based dating app built as my 4th WDI project</p>

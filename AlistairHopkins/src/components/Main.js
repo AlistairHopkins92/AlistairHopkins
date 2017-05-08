@@ -9,7 +9,7 @@ class Main extends React.Component {
     render() {
         return (
             <div>
-                <Sidebar location={this.props.location} page="Main"/>
+                <Sidebar location={this.props.location} page="Home"/>
                 <Header />
                 <div className="main">
                     <div>

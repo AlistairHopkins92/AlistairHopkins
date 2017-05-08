@@ -13,21 +13,15 @@ class Stack extends React.Component {
                 <Header />
                 <div className="work">
                     <div className="trace">
+                        <h1>Looking for a developer?</h1>
                     <div className="textBlock">
-                        <h2>I'd Love to hear from you!</h2>
-                        <h2>Feel free to get in touch:</h2>
-                        <a href="mailto:alistairhopkins92@gmail.com">     
-                            <h1>Email</h1>
-                        </a>
-                        <a href="https://linkedin.com/in/alistairhopkins92"> 
-                            <h1>LinkedIn</h1>
-                        </a>
-                         <a href="https://github.com/AlistairHopkins92">
-                            <h1>GitHub</h1>
-                        </a>
+                        <p>Are you looking for a enthusiastic software developer with a passion for all things JavaScript for your next project? Don't hesitate to reach out to me if you'd like to have a chat about potentially working together.</p>
+                        <p>I'm always interested in hearing & talking about new ideas, so feel free to drop me an email with anything you would like to discuss.</p>
+                        <h2>Get in touch:</h2>
                     </div>
                     </div>
                 </div>
+                <Footer />
             </div>
         )
     }
