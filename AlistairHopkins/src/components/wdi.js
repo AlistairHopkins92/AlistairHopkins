@@ -4,7 +4,7 @@ class Wdi extends React.Component {
             return (
                 <div className="work">
                     <div className="workcontainer">
-                        <h1>WDI Projects</h1>
+                        <h1> General Assembly & WDI Projects</h1>
                         <div className="textBlock">
                             <p>General Assembly was a three month immersive coding bootcamp that covers a range of programming languages and frameworks, concerning both the client side and the server side. A large part of the course focused on working as part of a team, either pair programming or working in larger groups for certain projects.</p>
                         </div>
@@ -17,15 +17,17 @@ class Wdi extends React.Component {
                                     </a>
                                 </h4>
                                 <div className="wdi-top">
-                                    <p>Puzzle Game built as my first WDI project</p>
+                                    <p>Puzzle Game from my childhood built as my first WDI project. Players take it in turns to draw lines with the aim of completing a boxes before the other player.</p>
                                  </div>
                                  <div className="stack-col">
                                     <h4>Stack</h4>
-                                    <p>
-                                        HTML
-                                        CSS
-                                        JavaScript
-                                    </p>
+                                    <ul>
+                                        <li>HTML,</li>
+                                        <li>JavaScript,</li>
+                                        <li>jQuery,</li>
+                                        <li>CSS,</li>
+                                        <li>animate.css</li>
+                                    </ul>
                                 </div>
                                 <div className="wdi-image">
                                     <img src={require('../css/images/fillmein.png')} className="wdiimage" />
@@ -39,15 +41,18 @@ class Wdi extends React.Component {
                                     </a>
                                 </h4>
                                 <div className="wdi-top">
-                                    <p>A lift sharing service with Facebook OAuth authentication</p>
+                                    <p>Created for my second WDI project, Ride With Me is a lift sharing service. Built in Ruby with Facebook OAuth authentication option on log in.</p>
                                 </div>
                                 <div className="stack-col">
                                     <h4>Stack</h4>
-                                    <p>
-                                        AngularJS
-                                        Google Maps Api
-                                        forecast.io API
-                                    </p>
+                                    <ul>
+                                        <li>HTML,</li>
+                                        <li>CSS,</li>
+                                        <li>Rails,</li>
+                                        <li>jQuery,</li>
+                                        <li>Foundation,</li>
+                                        <li>Facebook OAuth</li>
+                                    </ul>
                                 </div>
                                 <div className="wdi-image">
                                     <img src={require('../css/images/ridewithme.png')} className="wdiimage" />
@@ -62,15 +67,18 @@ class Wdi extends React.Component {
                                     </a>
                                 </h4>
                                 <div className="wdi-top">
-                                    <p>A website for finding 7 days of sun using Google Maps and forecast.io APIs</p>
+                                    <p>7 Days of Sun is a JavaScript Single Page Application which shows only sunny locations in the coming 7 days. Built as part of the WDI group project.</p>
                                 </div>
                                 <div className="stack-col">
                                     <h4>Stack</h4>
-                                    <p>
-                                        AngularJS
-                                        Google Maps Api
-                                        forecast.io API
-                                    </p>
+                                    <ul>
+                                        <li>JavaScript,</li>
+                                        <li>jQuery,</li>
+                                        <li>Underscore.JS,</li>
+                                        <li>AngularJS,</li>
+                                        <li>Google Maps Api,</li>
+                                        <li>forecast.io API</li>
+                                    </ul>
                                 </div>
                                 <div className="wdi-image">
                                     <img src={require('../css/images/7days.png')} className="wdiimage" />
@@ -84,21 +92,25 @@ class Wdi extends React.Component {
                                     </a>
                                 </h4>
                                 <div className="wdi-top">
-                                    <p>Down to go is a location based dating app built as my 4th WDI project</p>
+                                    <p>'Down To Go' location based social dating app which allows a user to select their location for the evening, match with others, then chat.</p>
                                 </div>
                                 <div className="stack-col">
                                     <h4>Stack</h4>
-                                    <p>
-                                        AngularJS
-                                        Google Maps Api
-                                        Socket.io.
-                                    </p>
+                                    <ul>
+                                        <li>Javascript,</li>
+                                        <li>jQuery,</li>
+                                        <li>Node.js,</li>
+                                        <li>passport.js</li>
+                                        <li>socket.io,</li>
+                                        <li>Google Maps API</li>
+                                    </ul>
                                 </div>
                                 <div className="wdi-image">
                                     <img src={require('../css/images/downtogo.png')} className="wdiimage" />
                                 </div>
                             </div>
                         </div>
+                        <p>asdasdsa</p>
                     </div>
                 </div>
             )
