@@ -16,7 +16,7 @@ class Main extends React.Component {
                         <h1>Alistair Hopkins</h1>
                         <h4>Web Developer</h4>
                         <img className="portrait"
-                            src={require('../css/images/websiteportrait.png')}
+                            src={require('../css/images/webimage.jpg')}
                             role="presentation"
                         />
                     </div>
