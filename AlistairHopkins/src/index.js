@@ -10,7 +10,6 @@ import NotFound from "./components/NotFound"
 const grainy = require('grainy');
 import './css/style.css';
 
-const repo = `/${window.location.pathname.split('/')[1]}`;
 
 const Root = () => {
     document.querySelector('body').grainy({
@@ -24,7 +23,7 @@ const Root = () => {
 
     return (
         <div>
-            <BrowserRouter baseName={repo}>
+            <BrowserRouter baseName='/portfolio/'>
                 <div>
                     <Match exactly pattern="/" component={Main}></Match>
                     <Match exactly pattern="/other" component={General}></Match>
