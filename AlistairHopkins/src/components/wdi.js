@@ -8,7 +8,7 @@ class Wdi extends React.Component {
                         <div className="textBlock">
                             <p>General Assembly was a three month immersive coding bootcamp that covers a range of programming languages and frameworks, concerning both the client side and the server side. A large part of the course focused on working as part of a team, either pair programming or working in larger groups for certain projects.</p>
                         </div>
-                        <div className="pill-container">    
+                        <div className="pill-container">  
                             <div className="work-pill">
                                 <h4 className="work-title">
                                     The Box Game
@@ -58,7 +58,9 @@ class Wdi extends React.Component {
                                     <img src={require('../css/images/ridewithme.png')} className="wdiimage" />
                                 </div>
                             </div>
-                            
+                        </div>
+                        
+                        <div className="pill-container">
                             <div className="work-pill3">
                                 <h4 className="work-title">
                                     7 Days of Sun 
@@ -76,7 +78,7 @@ class Wdi extends React.Component {
                                         <li>jQuery,</li>
                                         <li>Underscore.JS,</li>
                                         <li>AngularJS,</li>
-                                        <li>Google Maps Api,</li>
+                                        <li>Google Maps API,</li>
                                         <li>forecast.io API</li>
                                     </ul>
                                 </div>
@@ -110,7 +112,6 @@ class Wdi extends React.Component {
                                 </div>
                             </div>
                         </div>
-                        <p>asdasdsa</p>
                     </div>
                 </div>
             )
