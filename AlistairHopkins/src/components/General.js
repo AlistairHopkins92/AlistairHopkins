@@ -41,9 +41,9 @@ class General extends React.Component {
                         </div>
                         <div className="about">
                             <h2>A bit about me</h2>
-                            <p>Originating from the North of England, I'm a Web Developer with a keen interest in understanding how to make things work. I recently finished my first software development role after graduating an intensive web development course at General assembly. I’m now looking for a development position where I can get heavily involved with new technologies as a part of a dynamic team, and also build upon my existing skills and knowledge.</p>
-                            <p>Since finishing my contract at Roco Partners I’ve split my time between working on some freelance projects and improving my skill set by learning React and Redux. </p>
-                            <p>One of the freelance projects involved looking at a WordPress website for a tool resale company, focusing mainly on speed optimisation as well as fixing some bugs and looking at potential new features.</p>
+                            <p>Originating from the North of England, I'm a Web Developer with a keen interest in understanding how to make things work. In the Summer of 2016 I graduated from an intensive web development course at General assembly and since then I've recently finished my first software development role at a company called Roco Partners. </p>
+                            <p>Since finishing my contract at Roco Partners I’ve split my time between working on some freelance projects and improving my skill set by learning React and Redux. This portfolio website is one of my first React projects to go live. I love working with new tech and in the near future I intend to rebuild my 4th General Assembly project with React Native. </p>
+                            <p>I believe in a "How hard can it be?" attitude, so although I primarily work with JavaScript frameworks I'm happy to take a look at almost anything. One my recent freelance projects involved working on a WordPress site for a tool resale company, focusing mainly on speed optimisation as well as fixing some longstanding bugs.</p>
                         </div>
                     </div>
                 </div>
